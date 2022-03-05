@@ -1,7 +1,75 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #b2bec3;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: -75px;
+    left: 475px;
+}
+.vizitka{
+    width: 550px;
+    box-shadow: 5px 2px 2px rgba(29, 28, 28, 0.404); /**/
+    border-radius: 10px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    position: relative;
+    padding: 30px;
+ 
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+    margin: 0 0 30px 0;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    margin: 0;
+}
+.spodni_odstavec{
+    margin-bottom: 30px;
+    margin-top: 17px;
+}
+a{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    color: white;
+}
+.tlacitko{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;   
+}
+.twitter{
+ background-color: #1da1f2;
+ margin-bottom: 5px;
+}
+.facebook{
+    background-color: #3b5998;
+}
+
+.twitter:hover{
+    background-color: #0b7bc1;
+}
+.facebook:hover{
+    background-color: #2b406e;
+}
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
